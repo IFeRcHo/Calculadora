@@ -1,6 +1,31 @@
-$clr-white: #fff;
-$clr-black: #000;
-$clr-gray: #333;
-$clr-gray-light: #666;
-$clr-gray-lighter: #999;
-$clr-gray-lightest: #ccc;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+
+    ul{
+        list-style-type: none;
+    }
+
+    button{
+        background-color: transparent;
+        border: 0;
+        border-radius: 0;
+    }
+
+    header{
+        padding-block: 2rem;
+    }
+
+    
+}
+
+.text_values{
+    cursor: default;
+    text-align: right;
+    border: none;
+    outline: none;   
+         
+}
